@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: verdana;
+  background-image: url(imgs/macos-monterey-wwdc-21-stock-dark-mode-5k-2560x1440-5585.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+#contenedor {
+  background-color: rgba(135, 207, 235, 0.71);
+  width: 350px;
+  height: 550px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 0px 50px 10px SKYBLUE;
+}
+h1 {
+  position: relative;
+  top: 50px;
+  color: blanchedalmond;
+}
+#calcular {
+  cursor: pointer;
+  background-color: green;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition-duration: 0.8s;
+}
+#calcular:hover {
+  background-color: yellowgreen;
+}
+input {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  display: block;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+#resultado {
+  position: relative;
+  top: 100px;
+  font-size: 50px;
+}
+
+#mode {
+  position: relative;
+  background-color: rgb(77, 194, 95);
+  left: 20px;
+  top: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+#mode.active {
+  background-color: skyblue;
+}
+#contenedor.active {
+  background-color: rgba(77, 194, 95, 0.704);
+  box-shadow: 0 0px 50px 10px rgb(77, 194, 95);
+}
